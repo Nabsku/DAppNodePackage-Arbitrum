@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Arbitrum Mainnet Node",
   "shortDescription": "Arbitrum Node, written in Go",
-  "upstreamVersion": "v1.2.1-baf03bb",
+  "upstreamVersion": "v1.2.1",
   "upstreamRepo": "OffchainLabs/arbitrum",
   "upstreamArg": "UPSTREAM_VERSION",
   "type": "service",
