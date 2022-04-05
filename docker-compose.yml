@@ -4,7 +4,7 @@ services:
     build:
       context: build
       args:
-        UPSTREAM_VERSION: v1.3.0-beta2
+        UPSTREAM_VERSION: v1.3.0
     ports:
       - 8547/tcp
       - 8548/tcp
