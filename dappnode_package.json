@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Arbitrum Mainnet Node. This package does take up a lot of ressources (CPU & RAM) in its current form. When Arbitrum migrates to Nitro, this should change.",
   "shortDescription": "Arbitrum Node, written in Go",
-  "upstreamVersion": "v1.4.0-f4bbe91",
+  "upstreamVersion": "v1.4.1",
   "upstreamRepo": "OffchainLabs/arbitrum",
   "upstreamArg": "UPSTREAM_VERSION",
   "type": "service",
