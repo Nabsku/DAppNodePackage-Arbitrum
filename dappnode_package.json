@@ -1,18 +1,23 @@
 {
   "name": "arbitrum.public.dappnode.eth",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Arbitrum Mainnet Node. This package does take up a lot of ressources (CPU & RAM) in its current form. When Arbitrum migrates to Nitro, this should change.",
   "shortDescription": "Arbitrum Node, written in Go",
-  "upstreamVersion": "v1.4.0-f4bbe91",
+  "upstreamVersion": "v1.4.1-h9180527",
   "upstreamRepo": "OffchainLabs/arbitrum",
   "upstreamArg": "UPSTREAM_VERSION",
+  "chain": {
+    "driver": "ethereum",
+    "serviceName": "arbitrum-node",
+    "portNumber": 8547
+  },
   "type": "service",
   "author": "Nabsku <thenabsku@gmail.com> (https://github.com/Nabsku)",
   "architectures": ["linux/amd64"],
   "contributors": ["Nabsku <thenabsku@gmail.com> (https://github.com/Nabsku)"],
   "categories": ["Developer tools"],
   "links": {
-    "endpoint": "http://arbitrum-node.arbitrum.public.dappnode:8547",
+    "endpoint": "http://arbitrum.public.dappnode:8547",
     "homepage": "https://github.com/OffchainLabs/arbitrum",
     "docs": "https://developer.offchainlabs.com/docs/running_node"
   },
